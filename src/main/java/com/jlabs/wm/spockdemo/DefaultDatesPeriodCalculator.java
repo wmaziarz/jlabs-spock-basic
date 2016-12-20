@@ -16,8 +16,4 @@ public class DefaultDatesPeriodCalculator implements DatesPeriodCalculator {
 		return ChronoUnit.DAYS.between(from, to);
 	}
 
-	public void setDateParser(DateParser dateParser) {
-		this.dateParser = dateParser;
-	}
-
 }
